@@ -1,0 +1,26 @@
+{
+  "name": "mrepo",
+  "version": "0.0.1",
+  "description": "Monorepo configuration tool",
+  "bin": {
+    "mrepo": "./bin/mrepo"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "prepublish": "tsc -p src"
+  },
+  "author": "Juha Järvi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/requirex/mrepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/requirex/mrepo/issues"
+  },
+  "homepage": "https://github.com/requirex/mrepo#readme",
+  "devDependencies": {
+    "@types/node": "^12.6.8",
+    "typescript": "^3.5.3"
+  }
+}
