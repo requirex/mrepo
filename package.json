@@ -2,6 +2,7 @@
   "name": "mrepo",
   "version": "0.0.1",
   "description": "Monorepo configuration tool",
+  "main": "dist/index.js",
   "bin": {
     "mrepo": "./bin/mrepo"
   },
@@ -20,8 +21,13 @@
     "url": "https://github.com/requirex/mrepo/issues"
   },
   "homepage": "https://github.com/requirex/mrepo#readme",
+  "dependencies": {
+    "@types/uglify-js": "^3.0.4",
+    "requirex": "^0.1.4",
+    "uglify-js": "^3.6.0"
+  },
   "devDependencies": {
-    "@types/node": "^12.6.8",
-    "typescript": "^3.5.3"
+    "@types/node": "^12.7.8",
+    "typescript": "^3.6.3"
   }
 }
